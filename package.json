@@ -1,0 +1,13 @@
+{
+  "name": "signup-form",
+  "version": "1.0.0",
+  "description": "A signup form challange from Front End Mentor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew Rungwe",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
