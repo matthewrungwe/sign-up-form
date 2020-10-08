@@ -6,11 +6,13 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     
-    <title>Frontend Mentor | Sign up form</title>
+    <title>Frontend Sign up form</title>
 
     <!-- Personal Styles -->
     <link rel="stylesheet" href="./css/main.css">
     
+    <!-- Personal Scripts -->
+    <script src="./js/main.js" defer></script>
   </head>
   <body>
     <div class="body-layover">
@@ -35,29 +37,41 @@
             </div>
   
             <div class="form-n-terms">
-              <form action="..." method="post">
+              <form action="" method="post">
                 <div class="input-block">
                   <label for="first-name"><span style="display: none;">First Name</span></label>
                   <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
+                  <div class="invalid-message">
+                    <p>First Name cannot be empty</p>
+                  </div>
                 </div>
     
                 <div class="input-block">
                   <label for="last-name"><span style="display: none;">Last Name</span></label>
                   <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
+                  <div class="invalid-message">
+                    <p>Last Name cannot be empty</p>
+                  </div>
                 </div>
     
                 <div class="input-block">
                   <label for="email"><span style="display: none;">Emai Adress</span></label>
                   <input type="email" name="email" id="email" placeholder="Email Address" required>
+                  <div class="invalid-message">
+                    <p>Looks like this is not an email</p>
+                  </div>
                 </div>
     
                 <div class="input-block">
                   <label for="password"><span style="display: none;">Password</span></label>
                   <input type="password" name="password" id="password" placeholder="Password" required>
+                  <div class="invalid-message">
+                    <p>Password cannot be empty</p>
+                  </div>
                 </div>
     
                 <div class="submit-block">
-                  <input type="submit" value="Claim your free trial">
+                  <button class="submit-btn" type="submit">Claim your free trail</button>
                 </div>
               </form>
         
