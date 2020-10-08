@@ -101,19 +101,35 @@ body {
 
 .input-block {
     width: 80%;
-    height: 40px;
-    margin: 15px auto;
+    /* height: 60px; */
+    margin: 20px auto;
     /* border: 1px solid blue; */
 }
 
 .input-block input {
     width: 96%;
-    height: 100%;
+    height: 40px;
     margin: -1px 0 0 -1px;
     padding-left: 10px;
     border-radius: 5px;
     color: #333;
     border: 0.5px solid grey;
+}
+
+.input-block .invalid-message {
+    /* display: none; */
+    float: right;
+    /* border: 1px solid green; */
+    width: 40%;
+    padding: 5px 0 0 0;
+}
+
+.input-block .invalid-message p {
+    color: hsl(0, 100%, 74%);
+    font-size: 0.52rem;
+    font-weight: 800;
+    font-style: italic;
+    text-align: justify;
 }
 
 .submit-block {
@@ -123,7 +139,7 @@ body {
     /* border: 1px solid blue; */
 }
 
-.submit-block input {
+.submit-block .submit-btn {
     font-size: 0.7rem;
     font-weight: 700;
     width: 100%;
